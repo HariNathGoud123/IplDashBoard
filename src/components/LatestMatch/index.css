@@ -1,0 +1,41 @@
+.reacent-matches-contianer {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .competate-name {
+    font-size: 18px;
+  }
+  .result {
+    font-size: 14px;
+  }
+  .status {
+    font-size: 15px;
+  }
+}
+.status-red {
+  color: #d91c1f;
+}
+.status-green {
+  color: #1cdf74;
+}
+.status {
+  font-size: 35px;
+}
+.recent-container {
+  width: 30vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 10px;
+  text-align: center;
+}
+.competate-logo {
+  height: 13vh;
+}

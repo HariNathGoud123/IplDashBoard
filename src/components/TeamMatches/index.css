@@ -1,0 +1,80 @@
+.main-container {
+  background-color: #a4261d;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.team-banner {
+  height: 300px;
+  align-self: center;
+  width: 80vw;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .team-banner {
+    height: 170px;
+  }
+  .competate-banner {
+    height: 20px;
+  }
+  .latest-matches-container {
+    flex-direction: column;
+  }
+  .latest-matches-container-half {
+    width: 70vw;
+  }
+  .latest-matches-container-half-2 {
+    border-top: 2px solid #5755a7;
+    width: 60vw;
+  }
+}
+.latest-matches-container {
+  width: 80vw;
+  display: flex;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  align-self: center;
+}
+.latest-matches-container-half {
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+  align-self: flex-start;
+}
+ul {
+  list-style-type: none;
+  color: #fff;
+  align-self: flex-start;
+}
+.latest {
+  align-self: flex-start;
+  margin-left: 10vw;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.competate-banner {
+  height: 150px;
+  width: 150px;
+}
+.reacent-matches-contianer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.loader {
+  align-self: center;
+}
+.show {
+  align-self: center;
+}
